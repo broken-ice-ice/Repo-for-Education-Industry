@@ -2,6 +2,6 @@
 title: Home
 ---
 
-# Welcome(Index)
+## Welcome
 
-This is a simple Jekyll site powered by GitHub Pages.
+这是一个资料发布页.
