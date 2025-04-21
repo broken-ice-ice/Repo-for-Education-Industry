@@ -1,8 +1,5 @@
 ---
-layout: default
-title: Home
+title: Welcome to my blog
 ---
 
-# Welcome to My Jekyll Site!
-
-This is a test page for your new GitHub Pages site. You can start editing here!
+ContentContentContentContentContent
