@@ -1,0 +1,5 @@
+title: My GitHub Pages Site
+description: Welcome to my site powered by Jekyll!
+baseurl: "" # 留空可以使用默认域名，或根据需要自定义
+url: "https://username.github.io"  # 替换为你的网站 URL
+theme: jekyll-theme-slate  # 使用 Jekyll 默认主题，或者自定义主题
