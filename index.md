@@ -1,7 +1,5 @@
 ---
-title: Home
+title: Welcome
 ---
-
-## Welcome
 
 这是一个资料发布页.
