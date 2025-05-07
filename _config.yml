@@ -1,2 +1,15 @@
 title: Repo for Education Industry
-#theme: minima
+sass:
+  sass_dir: _sass
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+# Comment this out if still present
+# theme: minima
+
