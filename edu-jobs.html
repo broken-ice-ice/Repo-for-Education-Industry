@@ -6,7 +6,10 @@ title: 教育行业就业科普
 <h1>教育行业就业科普</h1>
 
 <ul>
-  {% for post in site.posts %}
-    <li>{{ post.title }} - {{ post.categories }}</li>
+  {% for post in site.categories["教育行业就业科普"] %}
+    <li>
+      <span>{{ post.date | date: "%b %-d, %Y" }}</span><br />
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
 </ul>
