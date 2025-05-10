@@ -11,11 +11,11 @@ layout: default
 
   {%- assign all_categories = site.posts | map: "categories" | join: "," | split: "," | uniq | sort -%}
   {%- if all_categories.size > 0 -%}
-    <h2 class="post-list-heading">Categories</h2>
+    <h2 class="post-list-heading">Posts</h2>
     <ul class="category-list">
       {%- for category in all_categories -%}
         <li>
-          <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">
+          <a href="{{ site.baseurl }}/edu-jobs.html/">
             {{ category }}
           </a>
         </li>
