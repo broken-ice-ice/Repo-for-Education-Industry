@@ -15,7 +15,7 @@ layout: default
     <ul class="category-list">
       {%- for category in all_categories -%}
         <li>
-          <a href="{{ site.baseurl }}/edu-jobs.html/">
+          <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">
             {{ category }}
           </a>
         </li>
