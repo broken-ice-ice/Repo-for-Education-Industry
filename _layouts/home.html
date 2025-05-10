@@ -11,7 +11,7 @@ layout: default
 
   {%- assign all_categories = site.posts | map: "categories" | join: "," | split: "," | uniq | sort -%}
   {%- if all_categories.size > 0 -%}
-    <h2 class="post-list-heading">Posts by Category</h2>
+    <h1 class="post-list-heading">Posts</h1>
 
     {%- for category in all_categories -%}
       <h3 id="{{ category | slugify }}">{{ category }}</h3>
