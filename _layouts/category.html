@@ -2,17 +2,17 @@
 layout: default
 ---
 
-<div class="category-page">
-  <h1>Posts in "{{ page.category }}"</h1>
+{%- assign category_name = page.url | split: '/' | last -%}
 
-  <ul>
-    {%- for post in site.posts -%}
-      {%- if post.categories contains page.category -%}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span> - {{ post.date | date: "%b %-d, %Y" }}</span>
-        </li>
-      {%- endif -%}
-    {%- endfor -%}
-  </ul>
-</div>
+<h1>Posts in category: "{{ category_name }}"</h1>
+
+<ul>
+  {%- for post in site.posts -%}
+    {%- if post.categories contains category_name -%}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <span> - {{ post.date | date: "%b %-d, %Y" }}</span>
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
