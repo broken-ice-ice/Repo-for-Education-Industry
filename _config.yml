@@ -1,12 +1,13 @@
 title: Repo for Education Industry
 author: 碎碎冰
 email: 625633767@qq.com
+wechat: rengongzhizhang9337
 description: > # this means to ignore newlines until "twitter_username:"
   This is a website based on github page and jekyll to temporarily
   store and post resources.
 
 # social links
-wechat_id: rengongzhizhang9337
+#wechat_id: rengongzhizhang9337(太丑了)
 #twitter_username: jekyllrb
 #github_username:  jekyll
 #rss: rss
